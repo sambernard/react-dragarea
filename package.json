@@ -5,12 +5,12 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "./scripts/build.sh",
-    "test": "./node_modules/.bin/eslint -c .eslintrc modules/*",
+    "test": "eslint -c .eslintrc modules/*",
     "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:sambernard/react-dragarea.git"
+    "url": "git+ssh://git@github.com/sambernard/react-dragarea.git"
   },
   "keywords": [
     "react",
@@ -58,5 +58,8 @@
     "style-loader": "^0.13.1",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.14.1"
+  },
+  "directories": {
+    "example": "examples"
   }
 }
