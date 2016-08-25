@@ -1,0 +1,62 @@
+{
+  "name": "react-dragarea",
+  "version": "0.0.1",
+  "description": "A component to normalize responding to touch/scroll behavior",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "./scripts/build.sh",
+    "test": "./node_modules/.bin/eslint -c .eslintrc modules/*",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sambernard/react-dragarea.git"
+  },
+  "keywords": [
+    "react",
+    "dragarea",
+    "scroll",
+    "touch",
+    "touchmove",
+    "slider",
+    "react-component"
+  ],
+  "author": "Sam Bernard <sambernard@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sambernard/react-dragarea/issues"
+  },
+  "homepage": "https://github.com/sambernard/react-dragarea",
+  "peerDependencies": {
+    "react": ">=15.0.0",
+    "react-dom": ">=15.0.0"
+  },
+  "dependencies": {
+    "lodash.forown": "^4.4.0",
+    "lodash.isempty": "^4.4.0",
+    "lodash.isfunction": "^3.0.8",
+    "lodash.last": "^3.0.0",
+    "lodash.takeright": "^4.1.1",
+    "lodash.wrap": "^4.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "babel-cli": "^6.11.4",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "6.11.1",
+    "babel-preset-stage-2": "^6.13.0",
+    "css-loader": "^0.24.0",
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-babel": "3.3.0",
+    "eslint-plugin-react": "5.2.2",
+    "node-sass": "^3.8.0",
+    "postcss-loader": "^0.10.1",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
